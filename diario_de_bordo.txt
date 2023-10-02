@@ -1,0 +1,8 @@
+Estrutrua do Workspace
+- bin: Armazena os arquivos binários, $ go install
+- pkg: Mantém os arquivos de objetos GO compilados quando há dependências
+- src: Código fonte da aplicação
+
+Instalar pacotes
+$ go get <NomePacote>
+
