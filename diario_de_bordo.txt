@@ -6,3 +6,12 @@ Estrutrua do Workspace
 Instalar pacotes
 $ go get <NomePacote>
 
+Make funciona com 3 tipos:
+- map
+- slice
+- channel
+
+OS channels precisam ser executados em goroutines
+
+Ao executar o programa com a condição -race, ele verifica se há alguma race condition
+    $ go run -race main.go
